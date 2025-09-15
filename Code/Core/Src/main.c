@@ -101,7 +101,7 @@ int main(void)
   {
 	  if (timer == 0) {
 		 timer = 2;
-		 HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+		 HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin); //Toggle pin every 2sec
 		 HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
 	  }
 	  --timer;
